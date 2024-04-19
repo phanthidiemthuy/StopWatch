@@ -1,0 +1,56 @@
+body{
+    background-color: FEFAF6;
+}
+.tittle{
+    font-size: xx-large;
+    color: #102C57;
+    display: flex;
+    justify-content: center;
+}
+
+.watch{
+    font-size: 100px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.group--btn{
+    color: #102C57;
+    min-height: 40px;
+    min-width: 200px;
+    border-radius: 5px;
+    border: solid 1px #EADBC8;
+    background-color: #DAC0A3;
+    font-weight: 600;
+    font-size: larger;
+    box-shadow: 0px 5px 100px #212121;
+    margin: 100px;
+   
+}
+.start:hover{
+    color: whitesmoke;
+    background-color: lightgreen;
+    transition: ease-in-out 500ms;
+    box-shadow: 0px 5px 100px lightgreen;
+    scale: 1.15;
+}
+.stop:hover{
+    color: whitesmoke;
+    background-color: red;
+    transition: ease-in-out 500ms;
+    box-shadow: 0px 5px 100px red;
+    scale: 1.15;
+}
+.reset:hover{
+    color: whitesmoke;
+    background-color: yellow;
+    transition: ease-in-out 500ms;
+    box-shadow: 0px 5px 100px yellow;
+    scale: 1.15;
+}
